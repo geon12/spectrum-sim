@@ -5,6 +5,7 @@ Created on Tue Sep 22 16:58:00 2015
 """
 
 #function that goes through xlsx to get data into python
+#Based on Stackoverflow response from Colin Anderson: http://stackoverflow.com/questions/4371163/reading-xlsx-files-using-python
 def xlsx(fname):
     import zipfile
     from xml.etree.ElementTree import iterparse
